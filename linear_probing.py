@@ -1,4 +1,6 @@
 class HashTable:
+
+    # Initialize the hash table
     def __init__(self, size):
         self.size = size
         self.keys = [None] * size
